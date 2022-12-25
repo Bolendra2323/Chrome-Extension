@@ -2,6 +2,7 @@ body {
     margin: 0%;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
 }
 
 input {
@@ -25,10 +26,13 @@ button {
     border: none;
     font-weight: bold;
     margin-top: 5px;
+    border: 1px solid #5f9341;
 }
 
-
-/* STYLE THE LIST ACCORDING TO THE DESIGN */
+#delete-btn {
+    background-color: white;
+    color: #5f9341;
+}
 
 ul {
     margin-top: 20px;
